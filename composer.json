@@ -1,0 +1,26 @@
+{
+  "name": "twin-elements/message",
+  "type": "library",
+  "description": "Helper in composing the message",
+  "keywords": [
+    "message builder"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wladysław Dudko",
+      "email": "wladyslaw@jellinek.pl"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "symfony/twig-bridge": "^4.4",
+    "symfony/dependency-injection": "^4.4",
+    "symfony/mime": "^4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "TwinElements\\Component\\Flashes\\": ""
+    }
+  }
+}
