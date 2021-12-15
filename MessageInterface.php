@@ -1,6 +1,6 @@
 <?php
 
-namespace TwinElements\Components\Message;
+namespace TwinElements\Component\Message;
 
 interface MessageInterface
 {
