@@ -1,6 +1,6 @@
 <?php
 
-namespace TwinElements\Components\Message;
+namespace TwinElements\Component\Message;
 
 use Symfony\Bridge\Twig\Mime\TemplatedEmail;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
