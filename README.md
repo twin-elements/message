@@ -1,4 +1,11 @@
 ##Installation
+
+###Step 1: Download the Bundle
+
 ```composer require twin-elements/message```
 
-in `config/services.yaml` add `TwinElements\Components\Message\MessageBuilder: ~`
+###Step 2: Enable the service
+```
+#config/services.yaml
+services:
+    TwinElements\Component\Message\MessageBuilder: ~```
