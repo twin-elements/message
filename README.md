@@ -4,8 +4,8 @@
 
 ```composer require twin-elements/message```
 
-###Step 2: Enable the service
+###Step 2: If you do not use TwinElements/AdminBundle, enable the service 
 ```
 #config/services.yaml
 services:
-    TwinElements\Component\Message\MessageBuilder: ~```
+    TwinElements\Component\Message\MessageBuilderFactory: ~```
