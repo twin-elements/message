@@ -8,4 +8,23 @@
 ```
 #config/services.yaml
 services:
-    TwinElements\Component\Message\MessageBuilderFactory: ~```
+    TwinElements\Component\Message\MessageBuilderFactory: ~
+```
+###Usage
+
+```
+public function index(
+        MessageBuilderFactory $messageBuilderFactory,
+        MailerInterface       $mailer
+    )
+    {
+        $message = ($messageBuilderFactory->createMessageBuilder()->getMessage(
+            'Subject',
+            ['key' => 'value'],
+            'email_template_path.html.twig'
+        ))
+            ->addTo('email@email.com');
+        
+            $mailer->send($message);          
+    }
+```
